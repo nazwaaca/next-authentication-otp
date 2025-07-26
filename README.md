@@ -5,18 +5,22 @@
    git clone https://github.com/nazwaaca/next-authentication-otp.git
    cd next-authentication-otp
 2. **Install Depedencies**
+   ```bash
    *pnpm install*
 
-4. **Setup environment variables**
+3. **Setup environment variables**
 Buat file .env berdasarkan .env.example
-*DATABASE_URL="postgresql://user:password@host:port/dbname"
-EMAIL_FROM=your_email@gmail.com
-EMAIL_PASSWORD=your_email_password*
+   ```bash
+   DATABASE_URL="postgresql://user:password@host:port/dbname'
+   EMAIL_FROM=your_email@gmail.com
+   EMAIL_PASSWORD=your_email_password
+   
+4. **Generate Prisma Client**
+   ```bash
+   npx prisma generate
 
-5. **Generate Prisma Client**
-*npx prisma generate*
-
-6. **Push Schema Ke DB**
-7. **Run Program**
+5. **Push Schema Ke DB**
+   
+6. **Run Program**
    
    
